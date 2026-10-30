@@ -1,0 +1,39 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Generated / local data
+*.log
+*.sqlite
+*.sqlite3
+*.db
+reports/
+exports/
+
+# IDE / system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
